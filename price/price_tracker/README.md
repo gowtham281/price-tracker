@@ -1,4 +1,4 @@
-Flask Product Price Tracker
+Flask Product Price Track
 This Flask application allows users to track the prices of products on Flipkart. It utilizes web scraping to gather product information from the Flipkart website and compares it with stored prices in a MySQL database.
 
 Features
