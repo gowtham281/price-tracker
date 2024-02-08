@@ -90,6 +90,6 @@ if __name__ == '__main__':
 
     cursor = db_connection.cursor()
 
-    app.run(debug=True)
+    app.run(debug=True,port=8000)
     cursor.close()
     db_connection.close()
