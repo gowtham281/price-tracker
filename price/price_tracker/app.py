@@ -84,8 +84,8 @@ if __name__ == '__main__':
     db_connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="1234",
-        database="engine"
+        password="pass",
+        database="db_name"
     )
 
     cursor = db_connection.cursor()
